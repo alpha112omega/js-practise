@@ -7,7 +7,7 @@ function gami() {
         let computer_choci = choices[Math.floor(Math.random() * 3)].toLowerCase();
         console.log(user,computer_choci);
         play(user, computer_choci);
-        alert(`hello ${user_score},${computer_score}`);
+        alert(`your score:${user_score},computer score:${computer_score}`);
     }
 }
 function play(user, computer_choci) {
